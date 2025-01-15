@@ -1,19 +1,12 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './complementos/estilos.css'
+import BarraDeNavagecao from './componentes/BarraDeNavagecao.vue';
 </script>
 
 <template>
-  <header>
-
-    <div class="wrapper">
-
-      <nav>
-        <RouterLink to="/">Primeira geração</RouterLink>
-        <RouterLink to="/geracao2">Segunda geração</RouterLink>
-        <RouterLink to="/geracao3">Segunda geração</RouterLink>
-      </nav>
-    </div>
-  </header>
-
+  <BarraDeNavagecao></BarraDeNavagecao>
+  
   <RouterView />
 </template>
