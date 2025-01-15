@@ -14,7 +14,7 @@
         </li>
 
         <li class="nav-item">
-            <RouterLink class="nav-link" to="/geracao3">Segunda geração</RouterLink>
+            <RouterLink class="nav-link" to="/geracao3">Terceira geração</RouterLink>
         </li>
         
       </ul>
